@@ -1,0 +1,32 @@
+# --- scope & secrets (NEVER commit) ---
+config/targets.env
+*.env
+!config/targets.example.env
+*.token
+*.pem
+*.key
+cookies.txt
+auth.txt
+
+# --- engagement output / loot ---
+out/
+output/
+loot/
+results/
+evidence/
+*.pdf
+!reporting/sample_report.pdf
+
+# --- python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.toc_cache.json
+
+# --- os / editor ---
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
